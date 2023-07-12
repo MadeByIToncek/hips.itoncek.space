@@ -1,0 +1,3 @@
+hips_service_url = http://localhost/outputHiPS
+hips_release_date = 2018 -03 -18 T14 :01 Z
+hips_status = public mirror clonableOnce
