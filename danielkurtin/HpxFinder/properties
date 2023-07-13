@@ -1,0 +1,9 @@
+creator_did          = ivo://HERE/P/p/m42/meta
+obs_title            = danielkurtin-meta
+dataproduct_type     = meta
+hips_frame           = equatorial
+hips_order           = 7
+hips_tile_width      = 512
+hips_release_date    = 2023-07-13T19:39Z
+hips_version         = 1.4
+hips_builder         = Aladin/HipsGen v12.060
