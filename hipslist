@@ -1,3 +1,7 @@
 hips_service_url = https://hips.itoncek.space/chorvatsko
 hips_release_date = 2023-07-12 T20:23Z
 hips_status = public mirror clonableOnce
+
+hips_service_url = https://hips.itoncek.space/danielkurtin
+hips_release_date = 2023-07-13 T22:06Z
+hips_status = public mirror clonableOnce
