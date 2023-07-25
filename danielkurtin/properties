@@ -30,12 +30,12 @@ hips_pixel_scale     = 8.946E-4
 s_pixel_scale        = 0.001576
 dataproduct_type     = image
 hips_overlay         = overlayFading mergeOverwriteTile treeMedian
-hips_release_date    = 2023-07-25T11:14Z
+hips_release_date    = 2023-07-25T11:19Z
 hips_tile_format     = png
 moc_sky_fraction     = 6.917E-4
-hipsgen_date         = 2023-07-25T11:14Z
+hipsgen_date         = 2023-07-25T11:19Z
 hipsgen_params       = in=./danielkurtin "out=D:\\#netlify\\hips\\danielkurtin" id=HERE/p/danielkurtin color=png mode=overlayFading
-hips_creation_date   = 2023-07-25T11:14Z
+hips_creation_date   = 2023-07-25T11:19Z
 hips_estsize         = 68160
 hips_nb_tiles        = 232
 dataproduct_subtype  = color
