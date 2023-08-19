@@ -10,7 +10,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
         File file = new File("./public");
 
-        if(!file.exists()) System.exit(404);
+        if(!file.exists()) {
+            System.out.println("./public is nonexistent!");
+            System.exit(404);
+        };
         List<File> dirs = new ArrayList<>();
         for (File f : Objects.requireNonNull(file.listFiles())) {
             if(f.isDirectory()){
@@ -33,7 +36,8 @@ public class Main {
                             <title>HiPS.itoncek.space</title>
                         </head>
                         <body>
-                            <h1>HiPS.itoncek.space</h1>""");
+                            <h1>HiPS.itoncek.space</h1><br>
+                            <h3>You can find more info at <a href="https://aladin.cds.unistra.fr/hips/">Aladin</a> site""");
                 for (File dir : dirs) {
                     indexWriter.write(String.format("    <a href=\"%s\">%s</a> <br>\n", "./" + dir.getName() + "/", "/" + dir.getName()));
                     hipsWriter.write(String.format("hips_service_url = %s\n", "./" + dir.getName()));
